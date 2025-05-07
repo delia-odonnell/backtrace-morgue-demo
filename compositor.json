@@ -4,6 +4,10 @@
   "libraries": {
     "xv": "^1.1.25"
   },
+    "composite": true,
+    "settings": {
+      "strict": false, "target": "es6"
+    },  
   "title": "",
   "branch": "",
   "style": {

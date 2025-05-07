@@ -85,6 +85,8 @@ const client = bt.BacktraceClient.initialize({
   },
 });
 
+function messyAdd(a,b){return a+b}
+
 function usage(str) {
   if (typeof str === 'string')
     err(str + "\n");
